@@ -81,7 +81,9 @@
  ***
  ## :point_right: <a name="linux-cli-http">Linux CLI and HTTP</a>
  ***
- 
+ This section was informative for me, especially when it comes to networking topic, which was quite difficult to get (I tried to start reading the article for more than 5 times and ended up watching youtube videos and asking my brother for help :sweat_smile: :sweat_smile:). But I totally agree that I had to go through this.
+ I've already known most of the commands from Linux topic, but some of them will fill up my notes.
+
  ### Linux Survival (4 modules) :heavy_check_mark:
  ![linux-1](/completed-tasks/task_linux_cli/linux-1.jpg)
  ![linux-2](/completed-tasks/task_linux_cli/linux-2.jpg)
@@ -91,14 +93,24 @@
  ### Summary :smile_cat:
  :zap: **Things that were new to me**
  * Linux CLI
-   *
+   * `$ mv` - didn't no that you can use it for renaming;
+   * `$ pwd` to print your working directory;
+   * totally new staff about security and a command `$ chmod` to change those settings;
+   * `$ man` to open the manual and find out about a command needed;
+   * `$ find` - great command to find files by name, date, owner etc;
+   * `$ cat` - to combine files;
+   * commands related to a printer;
+   * `$ df` (disk free) - how much space you have;
+   * `$ ps aux` (process status) - to manage process that  are already running on your computer;
+   * `$ grep` - to find words in files and much more.
  * HTTP
+
  :zap: **Things that surprised me**
- * Linux CLI
- * HTTP
+ ...
+ 
  :zap: **Things I intend to use in the future**
- * Linux CLI
- * HTTP
+ * Linux CLI - I think I will use most of the commands, esoecially those which stand for the manipulation with files and directories.
+ * HTTP - 
 
  ***
  ## :point_right: <a name="git-collaboration">VCS (hello gitty), GitHub and Collaboration</a>
