@@ -75,20 +75,30 @@
 
  :zap: **Things I intend to use in the future**
  I am already and will in the future use `$ git log` command as well as all the commands related to the branching and merging.
+ I foutd very useful command `$ git log --oneline --graph --all`.
  Can't wait to see how it all works in a real project.
 
  ***
- ## :point_right: <a name="linux-cli-http">Linux CLI and Networking</a>
+ ## :point_right: <a name="linux-cli-http">Linux CLI and HTTP</a>
  ***
-
+ 
+ ### Linux Survival (4 modules) :heavy_check_mark:
+ ![linux-1](/completed-tasks/task_linux_cli/linux-1.jpg)
+ ![linux-2](/completed-tasks/task_linux_cli/linux-2.jpg)
+ ![linux-3](/completed-tasks/task_linux_cli/linux-3.jpg)
+ ![linux-4](/completed-tasks/task_linux_cli/linux-4.jpg)
  
  ### Summary :smile_cat:
  :zap: **Things that were new to me**
-
+ * Linux CLI
+   *
+ * HTTP
  :zap: **Things that surprised me**
-
+ * Linux CLI
+ * HTTP
  :zap: **Things I intend to use in the future**
- 
+ * Linux CLI
+ * HTTP
 
  ***
  ## :point_right: <a name="git-collaboration">VCS (hello gitty), GitHub and Collaboration</a>
