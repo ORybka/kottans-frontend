@@ -106,8 +106,10 @@
  * HTTP
 
  :zap: **Things that surprised me**
- ...
- 
+
+ * Linux CLI
+ * HTTP
+
  :zap: **Things I intend to use in the future**
  * Linux CLI - I think I will use most of the commands, esoecially those which stand for the manipulation with files and directories.
  * HTTP - 
