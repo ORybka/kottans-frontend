@@ -43,7 +43,7 @@
 
  ### Version Control with Git :heavy_check_mark:
  ![git-udacity-course-1](/completed-tasks/git-basics/git-udacity-1.jpg)
-  ### Two levels at [learngitbranching.js.org](https://learngitbranching.js.org/?locale=uk) :heavy_check_mark:
+ ### Two levels at [learngitbranching.js.org](https://learngitbranching.js.org/?locale=uk) :heavy_check_mark:
  ![learngitbranching-1](/completed-tasks/git-basics/learngitbranching-1.jpg)
  ![learngitbranching-2](/completed-tasks/git-basics/learngitbranching-2.jpg)
  
@@ -115,8 +115,16 @@
  * HTTP - 
 
  ***
- ## :point_right: <a name="git-collaboration">VCS (hello gitty), GitHub and Collaboration</a>
+ ## :point_right: <a name="git-collaboration">Git Collaboration</a>
  ***
+ bla bla bla [udacity](https://www.udacity.com/course/version-control-with-git--ud123) course 
+ 
+ ### GitHub & Collaboration :heavy_check_mark:
+ ![udacity-screenshot](/completed-tasks/task_git_collaboration/udacity.jpg)
+
+ ### Two levels at [learngitbranching.js.org](https://learngitbranching.js.org/?locale=uk) :heavy_check_mark:
+ ![learngitbranching-3](/completed-tasks/task_git_collaboration/learngitbranching-3.jpg)
+ ![learngitbranching-4](/completed-tasks/task_git_collaboration/learngitbranching-4.jpg)
 
  
  ### Summary :smile_cat:
