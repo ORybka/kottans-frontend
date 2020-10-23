@@ -118,7 +118,7 @@
  ## :point_right: <a name="git-collaboration">Git Collaboration</a>
  ***
  bla bla bla [udacity](https://www.udacity.com/course/version-control-with-git--ud123) course 
- 
+
  ### GitHub & Collaboration :heavy_check_mark:
  ![udacity-screenshot](/completed-tasks/task_git_collaboration/udacity.jpg)
 
@@ -129,10 +129,23 @@
  
  ### Summary :smile_cat:
  :zap: **Things that were new to me**
+ * `$ git remote add origin  <URL>` -  to set a shortname to refer to the location of the remote repository;
+ * **Forking** the project -- would be totally new for me but I've experienced it while making PR to the kottan's mock repo;
+ * `$ git shortlog` displays an alphabetical list of names and the commit messages that go along with them:
+   * `-s -n` flags to show only the number of commits each author has made, sorted numerically;
+   * `$ git log --author=<name>` flag to filter the commits to the provided author(with "" for more than 1 word);
+ * `$ git log --grep` - to find words;
+ * **CONTRIBUTING.md File** - a file lists out the information you should follow to contribute to the project;
+ * **GitHub Issues** - the noce way to communicate back and forth with a project maintainer on code changes before starting to work on your contribution to the project;
+
+
+
 
  :zap: **Things that surprised me**
+ To be honest I was suprised to see such a huge project like the Google one. It's great that Git has so many instruments to search for the specific information and commits, so you can work with such a huge project and don't get lost.
 
  :zap: **Things I intend to use in the future**
+  I am sure I will use all main commands, such as `git remote`, `git pull` and`git push`.  
 
  ***
  ## :point_right: <a name="html-css-intro">Intro to HTML & CSS</a>
