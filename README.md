@@ -78,6 +78,8 @@
  I foutd very useful command `$ git log --oneline --graph --all`.
  Can't wait to see how it all works in a real project.
 
+ ## [:top:](#top)
+
  ***
  ## :point_right: <a name="linux-cli-http">Linux CLI and HTTP</a>
  ***
@@ -111,13 +113,14 @@
   * `|` - sends the output of a command as the input to another command
 
  **HTTP**
+
   All the topic was totally new for me and quite difficult to understand.
   The main points are:
   * Communication **protocol**, is a set of rules for exchanging information over a network;
   * HTTP, TCP & IP are on 3 different layers (there are many more of layers):
-    1. application layer (HTTP/HTTPS);
-    2. transport layer (TCP);
-    3. internet layer (IP).
+    * application layer (HTTP/HTTPS);
+    * transport layer (TCP);
+    * internet layer (IP).
   **HTTP is a protocol over TCP, which is over IP**
   * **HTTP** functions as a request–response protocol in the client–server computing model. In simple words, this is a language for computers.
   * Communication between a host and a client occurs, via a request/response pair. The client initiates an HTTP request message, which is serviced through a HTTP response message in return. Main points here:
@@ -138,11 +141,16 @@
   * **IP** is the principal communications protocol for relaying datagrams across network boundaries. Its routing function enables internetworking and essentially establishes the Internet.
 
  :zap: **Things that surprised me**
+
  As the Networking topic was new for me, deep dive into it was quite surprising and with lots of things to think about and to analyze.  
 
  :zap: **Things I intend to use in the future**
+
  **Linux CLI**. I think I will use most of the commands, especially those which stand for the manipulation with files and directories.
+
  **HTTP**. I think the main purpose of this article for me at the beginner level is that it's important to know how networking works. So in the future, I will be able to communicate with server and read properly it's responses. 
+
+ ## [:top:](#top)
 
  ***
  ## :point_right: <a name="git-collaboration">Git Collaboration</a>
@@ -168,17 +176,20 @@
  * `$ git log --grep` - to find words;
  * **CONTRIBUTING.md File** - a file lists out the information you should follow to contribute to the project;
  * **GitHub Issues** - the nice way to communicate back and forth with a project maintainer on code changes before starting to work on your contribution to the project;
-
-
-
+ * A **pull request** is a request to the original or source repository's maintainer to include changes in their project that you made in your fork of their project. 
+ ![git-collaboration](/img/git-col.jpg)
+ * **Squashing** - combining commits together with `$ git rebase -i <base>` (later use `$ git push -f origin <branch>`);
+ * **You should not rebase if you have already pushed the commits you want to rebase!**
 
  :zap: **Things that surprised me**
 
- To be honest I was suprised to see such a huge project as the Google one. It's great that Git has so many instruments to search for the specific information and commits, so you can work with such a huge project and don't get lost.
+ To be honest I was surprised to see such a huge project as the Google one. It's great that Git has so many instruments to search for the specific information and commits, so you can work with such a huge project and don't get lost. And you can easily propose your changes by making a pull request.
 
  :zap: **Things I intend to use in the future**
  
-  I am sure I will use all main commands, such as `git remote`, `git pull` and`git push` etc.  
+  I am sure I will use all main commands, such as `git remote`, `git pull` and`git push` etc. As well as creating PR and working on big projects with other developers. 
+
+ ## [:top:](#top)
 
  ***
  ## :point_right: <a name="html-css-intro">Intro to HTML & CSS</a>
@@ -192,6 +203,7 @@
 
  :zap: **Things I intend to use in the future**
 
+ ## [:top:](#top)
 
  ***
  ## :point_right: <a name="html-css-responsive">Responsive Web Design</a>
@@ -205,6 +217,8 @@
 
  :zap: **Things I intend to use in the future**
 
+ ## [:top:](#top)
+
  ***
  ## :point_right: <a name="html-css-popup">HTML & CSS Practice</a>
  ***
@@ -217,6 +231,8 @@
 
  :zap: **Things I intend to use in the future**
 
+ ## [:top:](#top)
+
  ***
  ## :point_right: <a name="js-basics">JavaScript Basics</a>
  ***
@@ -228,6 +244,8 @@
  :zap: **Things that surprised me**
 
  :zap: **Things I intend to use in the future**
+
+ ## [:top:](#top)
 
  ***
  ## :point_right: <a name="js-dom">Document Object Model</a>
