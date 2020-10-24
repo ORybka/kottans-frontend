@@ -9,7 +9,7 @@
 <!-- :muscle: -->
 
  - [x] [Git Basics](#git_basics)
- - [ ] [Linux CLI and Networking](#linux-cli-http)
+ - [x] [Linux CLI and Networking](#linux-cli-http)
  - [ ] [VCS (hello gitty), GitHub and Collaboration](#git-collaboration)
 
 #### Front-End Basics
@@ -82,7 +82,7 @@
  ## :point_right: <a name="linux-cli-http">Linux CLI and HTTP</a>
  ***
  This section was informative for me, especially when it comes to networking topic, which was quite difficult to get (I tried to start reading the article for more than 5 times and ended up watching youtube videos and asking my brother for help :sweat_smile: :sweat_smile:). But I totally agree that I had to go through this.
- I've already known most of the commands from Linux topic, but some of them will fill up my notes.
+ On the other hand, I've already known most of the commands from the Linux topic, but some of them will fill up my notes.
 
  ### Linux Survival (4 modules) :heavy_check_mark:
  ![linux-1](/completed-tasks/task_linux_cli/linux-1.jpg)
@@ -92,32 +92,63 @@
  
  ### Summary :smile_cat:
  :zap: **Things that were new to me**
- * Linux CLI
-   * `$ mv` - didn't no that you can use it for renaming;
-   * `$ pwd` to print your working directory;
-   * totally new staff about security and a command `$ chmod` to change those settings;
-   * `$ man` to open the manual and find out about a command needed;
-   * `$ find` - great command to find files by name, date, owner etc;
-   * `$ cat` - to combine files;
-   * commands related to a printer;
-   * `$ df` (disk free) - how much space you have;
-   * `$ ps aux` (process status) - to manage process that  are already running on your computer;
-   * `$ grep` - to find words in files and much more.
- * HTTP
+
+ **Linux CLI**
+  * `$ mv` - didn't know that you can use it for renaming;
+  * `$ pwd` to print your working directory;
+  * totally new staff about security and a command `$ chmod` to change those settings;
+  * `$ man` to open the manual and find out about a command needed;
+  * `$ find` - great command to find files by name, date, owner etc;
+  * `$ cat` - to combine files;
+  * commands related to a printer;
+  * `$ df` (disk free) - how much space you have;
+  * `$ ps aux` (process status) - to manage process that  are already running on your computer;
+  * `$ grep` - to find words in files and much more.
+  * `/` at the start path is root, without `/` is relative;
+  * `~` - home directory;
+  * `rwx` - read write execute, `u` - user, `g` - group, `o` - world;
+  * `>` - overwrite, `>>` - append
+  * `|` - sends the output of a command as the input to another command
+
+ **HTTP**
+  All the topic was totally new for me and quite difficult to understand.
+  The main points are:
+  * Communication **protocol**, is a set of rules for exchanging information over a network;
+  * HTTP, TCP & IP are on 3 different layers (there are many more of layers):
+    1. application layer (HTTP/HTTPS);
+    2. transport layer (TCP);
+    3. internet layer (IP).
+  **HTTP is a protocol over TCP, which is over IP**
+  * **HTTP** functions as a request–response protocol in the client–server computing model. In simple words, this is a language for computers.
+  * Communication between a host and a client occurs, via a request/response pair. The client initiates an HTTP request message, which is serviced through a HTTP response message in return. Main points here:
+    * **URL** reveals the identity of the particular host with which we want to communicate;
+    * **Request methods (verbs)** indicate the desired action to be performed on the identified resource. The most commonly used one is GET (other important are POST, PATCH, PUT, DELETE);
+    *  **Status code** tells the client how to interpret the server response: Informational `1XX`, Successful `2XX`, Redirection `3XX`, Client Error `4XX`, Server Error `5XX`.
+    ![http](/img/http.jpg)
+    * **General Headers** are shared by both request and response messages;
+    * **Entity headers** used to provide meta-information about the the content (aka Message Body or Entity);
+  * **HTTPS** is a secure version of HTTP, inserting an additional layer between HTTP and TCP called TLS or SSL;
+  * An **HTTP cookie** is a small piece of data stored on the user's computer by the web browser while browsing a website;
+  * Two types of **Authentication**: *basic* authentication is a method for an HTTP user agent to provide a user name and password when making a request and a *digest* one which uses a more secure hashing function to encrypt the username and password.
+  * **HTTP Caching** is an information technology for the temporary storage (caching) of Web documents, such as Web pages, images, and other types of Web multimedia, to reduce server lag. The main advantage is that cashing csn do a freshness check to determine the age of the content in the cache; make a request to refresh the content only if necessary.
+
+  * **TCP** is a reliable transport protocol to establishe a connection between the client and server. A TCP stream is broken into IP packets, and it ensures that those packets always arrive in the correct order without fail;
+  * TCP uses a three-way **handshake** to establish a reliable connection.
+
+  * **IP** is the principal communications protocol for relaying datagrams across network boundaries. Its routing function enables internetworking and essentially establishes the Internet.
 
  :zap: **Things that surprised me**
-
- * Linux CLI
- * HTTP
+ As the Networking topic was new for me, deep dive into it was quite surprising and with lots of things to think about and to analyze.  
 
  :zap: **Things I intend to use in the future**
- * Linux CLI - I think I will use most of the commands, esoecially those which stand for the manipulation with files and directories.
- * HTTP - 
+ **Linux CLI**. I think I will use most of the commands, especially those which stand for the manipulation with files and directories.
+ **HTTP**. I think the main purpose of this article for me at the beginner level is that it's important to know how networking works. So in the future, I will be able to communicate with server and read properly it's responses. 
 
  ***
  ## :point_right: <a name="git-collaboration">Git Collaboration</a>
  ***
- bla bla bla [udacity](https://www.udacity.com/course/version-control-with-git--ud123) course 
+ bla bla bla 
+ [udacity](https://www.udacity.com/course/version-control-with-git--ud123) course 
 
  ### GitHub & Collaboration :heavy_check_mark:
  ![udacity-screenshot](/completed-tasks/task_git_collaboration/udacity.jpg)
@@ -136,16 +167,18 @@
    * `$ git log --author=<name>` flag to filter the commits to the provided author(with "" for more than 1 word);
  * `$ git log --grep` - to find words;
  * **CONTRIBUTING.md File** - a file lists out the information you should follow to contribute to the project;
- * **GitHub Issues** - the noce way to communicate back and forth with a project maintainer on code changes before starting to work on your contribution to the project;
+ * **GitHub Issues** - the nice way to communicate back and forth with a project maintainer on code changes before starting to work on your contribution to the project;
 
 
 
 
  :zap: **Things that surprised me**
- To be honest I was suprised to see such a huge project like the Google one. It's great that Git has so many instruments to search for the specific information and commits, so you can work with such a huge project and don't get lost.
+
+ To be honest I was suprised to see such a huge project as the Google one. It's great that Git has so many instruments to search for the specific information and commits, so you can work with such a huge project and don't get lost.
 
  :zap: **Things I intend to use in the future**
-  I am sure I will use all main commands, such as `git remote`, `git pull` and`git push`.  
+ 
+  I am sure I will use all main commands, such as `git remote`, `git pull` and`git push` etc.  
 
  ***
  ## :point_right: <a name="html-css-intro">Intro to HTML & CSS</a>
@@ -160,11 +193,55 @@
  :zap: **Things I intend to use in the future**
 
 
+ ***
+ ## :point_right: <a name="html-css-responsive">Responsive Web Design</a>
+ ***
 
+ 
+ ### Summary :smile_cat:
+ :zap: **Things that were new to me**
 
+ :zap: **Things that surprised me**
 
+ :zap: **Things I intend to use in the future**
 
+ ***
+ ## :point_right: <a name="html-css-popup">HTML & CSS Practice</a>
+ ***
 
+ 
+ ### Summary :smile_cat:
+ :zap: **Things that were new to me**
+
+ :zap: **Things that surprised me**
+
+ :zap: **Things I intend to use in the future**
+
+ ***
+ ## :point_right: <a name="js-basics">JavaScript Basics</a>
+ ***
+
+ 
+ ### Summary :smile_cat:
+ :zap: **Things that were new to me**
+
+ :zap: **Things that surprised me**
+
+ :zap: **Things I intend to use in the future**
+
+ ***
+ ## :point_right: <a name="js-dom">Document Object Model</a>
+ ***
+
+ 
+ ### Summary :smile_cat:
+ :zap: **Things that were new to me**
+
+ :zap: **Things that surprised me**
+
+ :zap: **Things I intend to use in the future**
+
+  
 
 
 
