@@ -10,7 +10,7 @@
 
  - [x] [Git Basics](#git_basics)
  - [x] [Linux CLI and Networking](#linux-cli-http)
- - [ ] [VCS (hello gitty), GitHub and Collaboration](#git-collaboration)
+ - [x] [VCS (hello gitty), GitHub and Collaboration](#git-collaboration)
 
 #### Front-End Basics
 
@@ -62,7 +62,7 @@
    * **Resolving a merge conflict** - it's quite simple to do (as for now, when it's not a big project I guess :sweat_smile:);
  * Commands to change/delete your commits:
    * `$ git commit --amend` - change the last commit;
-   * `$ git revert <SHA>` - revert a specific commit;
+   * `$ git revert <SHA>` - revert a specific commit and add new one with changes;
    * `$ git reset` - can be `--mixed`(by default), `--soft` and `--hard` (be CAREFUL);
  * New commands related to the remote repo, such as:
    * `$ git fetch`
@@ -155,13 +155,13 @@
  ***
  ## :point_right: <a name="git-collaboration">Git Collaboration</a>
  ***
- bla bla bla 
- [udacity](https://www.udacity.com/course/version-control-with-git--ud123) course 
+ This section deepen my knowledge about Git :muscle:
+ And here I understood how is the process of making pull request goes.
 
  ### GitHub & Collaboration :heavy_check_mark:
  ![udacity-screenshot](/completed-tasks/task_git_collaboration/udacity.jpg)
 
- ### Two levels at [learngitbranching.js.org](https://learngitbranching.js.org/?locale=uk) :heavy_check_mark:
+ ### Levels at [learngitbranching.js.org](https://learngitbranching.js.org/?locale=uk) :heavy_check_mark:
  ![learngitbranching-3](/completed-tasks/task_git_collaboration/learngitbranching-3.jpg)
  ![learngitbranching-4](/completed-tasks/task_git_collaboration/learngitbranching-4.jpg)
 
@@ -177,9 +177,16 @@
  * **CONTRIBUTING.md File** - a file lists out the information you should follow to contribute to the project;
  * **GitHub Issues** - the nice way to communicate back and forth with a project maintainer on code changes before starting to work on your contribution to the project;
  * A **pull request** is a request to the original or source repository's maintainer to include changes in their project that you made in your fork of their project. 
+ 
  ![git-collaboration](/img/git-col.jpg)
+
  * **Squashing** - combining commits together with `$ git rebase -i <base>` (later use `$ git push -f origin <branch>`);
  * **You should not rebase if you have already pushed the commits you want to rebase!**
+ * `git cherry-pick <SHA1> <SHA2> <...>` - to copy commits to the current location (HEAD);
+ * `$ git describe <link>`- where the result is "nearest tag_number of commits to it_SHA";
+ * `$ git push origin <source>:<destination>`;
+ * `$ git fetch origin <source>:<destination>`;
+ * `$ git push origin :<destination>` - to delete the branch and 0/branch;
 
  :zap: **Things that surprised me**
 
