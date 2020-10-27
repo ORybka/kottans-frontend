@@ -18,7 +18,7 @@
 
 #### Front-End Basics
 
-- [ ] [Intro to HTML & CSS](#html-css-intro)
+- [x] [Intro to HTML & CSS](#html-css-intro)
 - [ ] [Responsive Web Design](#html-css-responsive)
 - [ ] [HTML & CSS Practice](#html-css-popup)
 - [ ] [JavaScript Basics](#js-basics)
@@ -228,8 +228,8 @@ I am sure I will use all main commands, such as `git remote`, `git pull` and`git
 
 ---
 
-This section deepen my knowledge about Git :muscle:
-And here I understood how is the process of making pull request goes.
+This section had not so many new things for me but some af the materials surprised me :D
+Also I liked a lot the way you can study with codecademy, very nice practical solution!
 
 ### Udacity course. Intro to HTML & CSS :heavy_check_mark:
 
@@ -244,20 +244,42 @@ And here I understood how is the process of making pull request goes.
 
 :zap: **Things that were new to me**
 
-These topics are not new for me, but it was nice to refresh my knowledge about them:
+The subject of courses was not new for me except of some details, but it was nice to refresh my knowledge about html & css, especially about:
 
 - **Tables**. Very important to get used to their structure so you will be able to fill them in the right way, using `<tr>` for table rows and `<td>` for table data.
 - **Forms**. This lesson remind me of couple of main type of input tag, such as `text`, `password`, `number`, `range`, `checkbox`, `radio` and `submit` and their attributes. Also such tag as `<datalist>`, `<textarea>` and how to make a dropdown list. It is important to write an assosiated label with some of them.
 
-* **Form validation** topic was totally new for me.
+- **Form validation** topic was totally new for me.
 
 - `<hr>` - an element that is used to a break between paragraph-level elements. It is displayed as a horizontal line.
 
+- I will leave a note for myself here:
+  * _flex-grow_ is used to specify how much space (and in what proportions) flex items absorb along the main axis.
+  * _flex-shrink_ is used to specify how much flex items shrink and in what proportions along the main axis.
+  * _flex-basis_ is used to specify the initial size of an element styled with flex-grow and/or flex-shrink.
+  * grid-template-columns: **repeat**(3, 100px);
+  * grid-template-columns: 100px **minmax**(100px, 500px) 100px;
+
 :zap: **Things that surprised me**
+
+These are things that were new for me and I'm surprised I didn't know that:
+
+- **IDs are the most specific selector in CSS, followed by classes, and finally, tags.** Since IDs override class and tag styles, they should be used sparingly and only on elements that need to always appear the same.
+- **Margin Collapse**. Unlike horizontal margins, **vertical margins** do not add. Instead, the larger of the two vertical margins sets the distance between adjacent elements.
+- **z-index** property does not work on static elements.
+- The **clear** property (which I've never used) specifies how elements should behave when they bump into each other on the page.
+- **Hue, Saturation, and Lightness** for defining a color scheme.
+- **word-spacing** and **letter-spacing**. It’s good to use _em_ values in this case because _em_ is dynamic — for word spacing, it sets the spacing based on the size of the font.
+- `display: inline-flex` - flexbox provides the inline-flex value for the display attribute, which allows us to create flex containers that are also inline elements.
+- align-items is for aligning elements within a single row. If a flex container has multiple rows of content, we can use align-content to space the rows from top to bottom.
+- max-height for activating a _strech effect_;
+- **grid-auto-rows** specifies the height of rows added implicitly to the grid, while **grid-auto-columns** specifies the width of columns added implicitly to the grid;
+- **grid-auto-flow** specifies whether new elements should be added to rows or columns.
 
 :zap: **Things I intend to use in the future**
 From the list of new things, I will use form validation for sure.
-All other materials are the basis for every Frontend developer, so we have to use them every day :)
+All the materials are the basic knowledge for every Frontend developer, so for sure I will use them every day :)
+And I do like the topic of flexbox and how couple of strings of your code can make such things.
 
 ## [:top:](#top)
 
