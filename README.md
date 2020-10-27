@@ -235,9 +235,12 @@ Also I liked a lot the way you can study with codecademy, very nice practical so
 
 ![udacity-screenshot](/completed-tasks/task_html_css_intro/udacity.jpg)
 
-### Codecademy courses. Learn HTML & CSS :heavy_check_mark:
+### Codecademy course. Learn HTML :heavy_check_mark:
 
 ![codecademy-html-screenshot](/completed-tasks/task_html_css_intro/codecademy-html.jpg)
+
+### Codecademy course. Learn CSS :heavy_check_mark:
+
 ![codecademy-css-screenshot](/completed-tasks/task_html_css_intro/codecademy-css.jpg)
 
 ### Summary :smile_cat:
@@ -277,6 +280,7 @@ These are things that were new for me and I'm surprised I didn't know that:
 - **grid-auto-flow** specifies whether new elements should be added to rows or columns.
 
 :zap: **Things I intend to use in the future**
+
 From the list of new things, I will use form validation for sure.
 All the materials are the basic knowledge for every Frontend developer, so for sure I will use them every day :)
 And I do like the topic of flexbox and how couple of strings of your code can make such things.
