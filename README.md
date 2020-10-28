@@ -19,7 +19,7 @@
 #### Front-End Basics
 
 - [x] [Intro to HTML & CSS](#html-css-intro)
-- [ ] [Responsive Web Design](#html-css-responsive)
+- [x] [Responsive Web Design](#html-css-responsive)
 - [ ] [HTML & CSS Practice](#html-css-popup)
 - [ ] [JavaScript Basics](#js-basics)
 - [ ] [Document Object Model](#js-dom)
@@ -293,13 +293,43 @@ And I do like the topic of flexbox and how couple of strings of your code can ma
 
 ---
 
+This section also had not so many new things for me but some af the materials surprised me a lot :D
+And I did love the froggy game <3
+
+### Udacity course. Responsive Web Design Fundamentals :heavy_check_mark:
+
+![udacity-screenshot](/completed-tasks/task_responsive_web_design/udacity.jpg)
+
+### Flexbox Froggy :heavy_check_mark:
+
+![flexbox-froggy-screenshot](/completed-tasks/task_responsive_web_design/flexbox-froggy.jpg)
+
 ### Summary :smile_cat:
 
 :zap: **Things that were new to me**
 
+* Four types of **responsive patterns** (and their combinations):
+  * mostly fluid;
+  * column drop; 
+  * layout shifter;
+  * off canvas.
+
+* **Order for flex items**. If you want the item to becom first in the order, you have to set property order: -1;. Other items will have 1, 2, 3 so on for the order you need.
+
 :zap: **Things that surprised me**
 
+* **A pixel is not a pixel!** :scream: :scream:
+  * **Physical pixels vs Device Independent Pixels** (simple example): 
+  The first iPhones had a resolution of 320×480, with a physical screen size of 3.5″. The iPhone 4 has the same physical screen size, but was the first to have a ‘Retina’ screen, with a resolution of 640×960. This was accomplished by doubling the physical pixel density; for each pixel in the screen of the iPhone 3G, both horizontally and vertically, the iPhone 4 had four.
+  In order to keep compatibility with existing mobile web apps a new concept was introduced: the device-independent pixel (DIP). What this means is that the screen keeps a virtual resolution of 320×480, the same as previous screens, but for each DIP, there are four physical pixels in the same space.
+  * The number of device pixels that make up a CSS pixel in one direction is its **Device Pixel Ratio (DPR)**. You can interpret this as the width (or height) of the grid of device pixels that fit inside one CSS pixel. Every device has a different *DPR*. Higher resolution devices have a higher DPR. 
+  * On a display with density less than 200dpi, the ratio is 1.0. On displays with density between 200 and 300dpi, the ratio is 1.5. For displays with density over 300dpi, the ratio is the integer floor(density/150dpi). Note that the default ratio is true only when the viewport scale equals 1.
+![how-does-dpr-work](/img/dpr.jpg)
+* Always remember! **Tap targets** or anyth that a user might touch, tap, click, or try do input on, need to be big enough and easy to hit. Better make 48px*48px btns (include size and space around).
+* **Ideal measure** (the length of a line of text) -> 45-90 characters per line (the best is 60cpl);
+
 :zap: **Things I intend to use in the future**
+I will use most of the concepts I learnt in the udacity course.
 
 ## [:top:](#top)
 
