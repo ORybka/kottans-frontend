@@ -89,7 +89,7 @@ I am already and will in the future use `$ git log` command as well as all the c
 I foutd very useful command `$ git log --oneline --graph --all`.
 Can't wait to see how it all works in a real project.
 
-## [:top:](#top)
+[:top:](#top)
 
 ---
 
@@ -168,7 +168,7 @@ As the Networking topic was new for me, deep dive into it was quite surprising a
 
 **HTTP**. I think the main purpose of this article for me at the beginner level is that it's important to know how networking works. So in the future, I will be able to communicate with server and read properly it's responses.
 
-## [:top:](#top)
+[:top:](#top)
 
 ---
 
@@ -220,7 +220,7 @@ To be honest I was surprised to see such a huge project as the Google one. It's 
 
 I am sure I will use all main commands, such as `git remote`, `git pull` and`git push` etc. As well as creating PR and working on big projects with other developers.
 
-## [:top:](#top)
+[:top:](#top)
 
 ---
 
@@ -285,7 +285,7 @@ From the list of new things, I will use form validation for sure.
 All the materials are the basic knowledge for every Frontend developer, so for sure I will use them every day :)
 And I do like the topic of flexbox and how couple of strings of your code can make such things.
 
-## [:top:](#top)
+[:top:](#top)
 
 ---
 
@@ -331,7 +331,7 @@ And I did love the froggy game <3
 :zap: **Things I intend to use in the future**
 I will use most of the concepts I learnt in the udacity course.
 
-## [:top:](#top)
+[:top:](#top)
 
 ---
 
@@ -347,7 +347,7 @@ I will use most of the concepts I learnt in the udacity course.
 
 :zap: **Things I intend to use in the future**
 
-## [:top:](#top)
+[:top:](#top)
 
 ---
 
@@ -363,7 +363,7 @@ I will use most of the concepts I learnt in the udacity course.
 
 :zap: **Things I intend to use in the future**
 
-## [:top:](#top)
+[:top:](#top)
 
 ---
 
@@ -379,4 +379,4 @@ I will use most of the concepts I learnt in the udacity course.
 
 :zap: **Things I intend to use in the future**
 
-## [:top:](#top)
+[:top:](#top)
