@@ -339,13 +339,22 @@ I will use most of the concepts I learnt in the udacity course.
 
 ---
 
+### Hooli-style popup :heavy_check_mark:
+
+![hooli-screenshot](/completed-tasks/html-css-practice/hooli.jpg)
+#### [Demo website](https://orybka.github.io/hooli/)
+
 ### Summary :smile_cat:
 
 :zap: **Things that were new to me**
+*Waiting for the review*
 
 :zap: **Things that surprised me**
+I was suprised I can make a popup like that without JavaScript.
+Quite an unusual solution with checkboxes as for me.
 
 :zap: **Things I intend to use in the future**
+Definitely I will use my new knowledge about checkboxes in the future!
 
 [:top:](#top)
 
