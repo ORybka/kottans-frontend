@@ -20,7 +20,7 @@
 
 - [x] [Intro to HTML & CSS](#html-css-intro)
 - [x] [Responsive Web Design](#html-css-responsive)
-- [ ] [HTML & CSS Practice](#html-css-popup)
+- [x] [HTML & CSS Practice](#html-css-popup)
 - [ ] [JavaScript Basics](#js-basics)
 - [ ] [Document Object Model](#js-dom)
 
@@ -257,11 +257,11 @@ The subject of courses was not new for me except of some details, but it was nic
 - `<hr>` - an element that is used to a break between paragraph-level elements. It is displayed as a horizontal line.
 
 - I will leave a note for myself here:
-  * _flex-grow_ is used to specify how much space (and in what proportions) flex items absorb along the main axis.
-  * _flex-shrink_ is used to specify how much flex items shrink and in what proportions along the main axis.
-  * _flex-basis_ is used to specify the initial size of an element styled with flex-grow and/or flex-shrink.
-  * grid-template-columns: **repeat**(3, 100px);
-  * grid-template-columns: 100px **minmax**(100px, 500px) 100px;
+  - _flex-grow_ is used to specify how much space (and in what proportions) flex items absorb along the main axis.
+  - _flex-shrink_ is used to specify how much flex items shrink and in what proportions along the main axis.
+  - _flex-basis_ is used to specify the initial size of an element styled with flex-grow and/or flex-shrink.
+  - grid-template-columns: **repeat**(3, 100px);
+  - grid-template-columns: 100px **minmax**(100px, 500px) 100px;
 
 :zap: **Things that surprised me**
 
@@ -308,25 +308,26 @@ And I did love the froggy game <3
 
 :zap: **Things that were new to me**
 
-* Four types of **responsive patterns** (and their combinations):
-  * mostly fluid;
-  * column drop; 
-  * layout shifter;
-  * off canvas.
+- Four types of **responsive patterns** (and their combinations):
 
-* **Order for flex items**. If you want the item to becom first in the order, you have to set property order: -1;. Other items will have 1, 2, 3 so on for the order you need.
+  - mostly fluid;
+  - column drop;
+  - layout shifter;
+  - off canvas.
+
+- **Order for flex items**. If you want the item to becom first in the order, you have to set property order: -1;. Other items will have 1, 2, 3 so on for the order you need.
 
 :zap: **Things that surprised me**
 
-* **A pixel is not a pixel!** :scream: :scream:
-  * **Physical pixels vs Device Independent Pixels** (simple example): 
-  The first iPhones had a resolution of 320×480, with a physical screen size of 3.5″. The iPhone 4 has the same physical screen size, but was the first to have a ‘Retina’ screen, with a resolution of 640×960. This was accomplished by doubling the physical pixel density; for each pixel in the screen of the iPhone 3G, both horizontally and vertically, the iPhone 4 had four.
-  In order to keep compatibility with existing mobile web apps a new concept was introduced: the device-independent pixel (DIP). What this means is that the screen keeps a virtual resolution of 320×480, the same as previous screens, but for each DIP, there are four physical pixels in the same space.
-  * The number of device pixels that make up a CSS pixel in one direction is its **Device Pixel Ratio (DPR)**. You can interpret this as the width (or height) of the grid of device pixels that fit inside one CSS pixel. Every device has a different *DPR*. Higher resolution devices have a higher DPR. 
-  * On a display with density less than 200dpi, the ratio is 1.0. On displays with density between 200 and 300dpi, the ratio is 1.5. For displays with density over 300dpi, the ratio is the integer floor(density/150dpi). Note that the default ratio is true only when the viewport scale equals 1.
-![how-does-dpr-work](/img/dpr.jpg)
-* Always remember! **Tap targets** or anyth that a user might touch, tap, click, or try do input on, need to be big enough and easy to hit. Better make 48px*48px btns (include size and space around).
-* **Ideal measure** (the length of a line of text) -> 45-90 characters per line (the best is 60cpl);
+- **A pixel is not a pixel!** :scream: :scream:
+  - **Physical pixels vs Device Independent Pixels** (simple example):
+    The first iPhones had a resolution of 320×480, with a physical screen size of 3.5″. The iPhone 4 has the same physical screen size, but was the first to have a ‘Retina’ screen, with a resolution of 640×960. This was accomplished by doubling the physical pixel density; for each pixel in the screen of the iPhone 3G, both horizontally and vertically, the iPhone 4 had four.
+    In order to keep compatibility with existing mobile web apps a new concept was introduced: the device-independent pixel (DIP). What this means is that the screen keeps a virtual resolution of 320×480, the same as previous screens, but for each DIP, there are four physical pixels in the same space.
+  - The number of device pixels that make up a CSS pixel in one direction is its **Device Pixel Ratio (DPR)**. You can interpret this as the width (or height) of the grid of device pixels that fit inside one CSS pixel. Every device has a different _DPR_. Higher resolution devices have a higher DPR.
+  - On a display with density less than 200dpi, the ratio is 1.0. On displays with density between 200 and 300dpi, the ratio is 1.5. For displays with density over 300dpi, the ratio is the integer floor(density/150dpi). Note that the default ratio is true only when the viewport scale equals 1.
+    ![how-does-dpr-work](/img/dpr.jpg)
+- Always remember! **Tap targets** or anyth that a user might touch, tap, click, or try do input on, need to be big enough and easy to hit. Better make 48px\*48px btns (include size and space around).
+- **Ideal measure** (the length of a line of text) -> 45-90 characters per line (the best is 60cpl);
 
 :zap: **Things I intend to use in the future**
 I will use most of the concepts I learnt in the udacity course.
@@ -342,19 +343,25 @@ I will use most of the concepts I learnt in the udacity course.
 ### Hooli-style popup :heavy_check_mark:
 
 ![hooli-screenshot](/completed-tasks/html-css-practice/hooli.jpg)
+
 #### [Demo website](https://orybka.github.io/hooli/)
 
 ### Summary :smile_cat:
 
 :zap: **Things that were new to me**
-*Waiting for the review*
+
+Going through the pull request (with files) and code review is very new for me.
+I think all the process on github is made very nice.
 
 :zap: **Things that surprised me**
+
 I was suprised I can make a popup like that without JavaScript.
-Quite an unusual solution with checkboxes as for me.
+Quite an unusual and successful solution with checkboxes as for me.
 
 :zap: **Things I intend to use in the future**
+
 Definitely I will use my new knowledge about checkboxes in the future!
+And I will pay more attention th what is written in the task :sweat_smile:
 
 [:top:](#top)
 
