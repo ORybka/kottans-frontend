@@ -361,7 +361,8 @@ Quite an unusual and successful solution with checkboxes as for me.
 :zap: **Things I intend to use in the future**
 
 Definitely I will use my new knowledge about checkboxes in the future!
-And I will pay more attention th what is written in the task :sweat_smile:
+
+And I will pay more attention to what is written in the task :sweat_smile:
 
 [:top:](#top)
 
