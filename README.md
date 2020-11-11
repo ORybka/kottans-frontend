@@ -351,11 +351,13 @@ I will use most of the concepts I learnt in the udacity course.
 :zap: **Things that were new to me**
 
 Going through the pull request (with files) and code review is very new for me.
+
 I think all the process on github is made very nice.
 
 :zap: **Things that surprised me**
 
 I was suprised I can make a popup like that without JavaScript.
+
 Quite an unusual and successful solution with checkboxes as for me.
 
 :zap: **Things I intend to use in the future**
@@ -372,6 +374,57 @@ And I will pay more attention to what is written in the task :sweat_smile:
 
 ---
 
+I think this part is very important for the future understanding of JavaScript as here we are getting familiar with all basics of the language.
+Even though I've already completed most of the exercises at freecodecamp.org it was nice to look through them one more time and complete the one I quited last time.
+
+### Udacity course. Intro to JavaScript :heavy_check_mark:
+
+![udacity-js](/completed-tasks/task_js_basics/udacity-js.jpg)
+
+### JavaScript Algorithms and Data Structures at [FreeCodeCamp](https://www.freecodecamp.org/learn/) :heavy_check_mark:
+
+![freecodecamp](/completed-tasks/task_js_basics/freecodecamp.jpg)
+
+### Summary :smile_cat:
+
+:zap: **Things that were new to me**
+
+I learnt about Functional programming and its principles for the first time. I liked this approach and hope I will be able to use it in the future.
+
+Also it was nice to refresh the basics.
+
+**Functional programming** is about:
+
+1. Isolated functions - there is no dependence on the state of the program, which includes global variables that are subject to change
+
+2. Pure functions - the same input always gives the same output
+
+3. Functions with limited side effects - any changes, or mutations, to the state of the program outside the function are carefully controlled
+
+:zap: **Things that surprised me**
+
+I was surprised how difficult it was to solve algorithms tasks. I will have to come back to them in the nearest future.
+
+:zap: **Things I intend to use in the future**
+
+I want to use more often all the main array methods, such as:
+
+`array.sort` - sorts the elements of an array according to the callback function. _mutats the original array!_
+`array.map` - iterates over each item in an array and returns a new array containing the results of calling the callback function on each element. _without mutating the original array_
+`array.filter` - filters the array, based on the function passed to it. Like map, it does this without needing to modify the original array. _without mutating the original array_
+`array.slice([start[, end]])` - returns a copy of certain elements of an array. The first argument gives the index of where to begin the slice, the second is the index for where to end the slice (and it's non-inclusive). _without mutating the original array_
+`array.splice` - takes arguments for the index of where to start removing items, then the number of items to remove. If the second argument is not provided, the default is to remove items through the end. _mutats the original array!_
+`array1.concat(array2)` - the method is called on one, then another array is provided as the argument to concat, which is added to the end of the first array. _without mutating the original array_
+`array.reduce` - terates over each item in an array and returns a single value (i.e. string, number, object, array). This is achieved via a callback function that is called on each iteration.
+
+[:top:](#top)
+
+---
+
+## :point_right: <a name="js-dom">Document Object Model</a>
+
+---
+
 ### Summary :smile_cat:
 
 :zap: **Things that were new to me**
@@ -384,7 +437,101 @@ And I will pay more attention to what is written in the task :sweat_smile:
 
 ---
 
-## :point_right: <a name="js-dom">Document Object Model</a>
+## :point_right: <a name="js-pre-oop">Building a Tiny JS World (pre-OOP)</a>
+
+---
+
+### Summary :smile_cat:
+
+:zap: **Things that were new to me**
+
+:zap: **Things that surprised me**
+
+:zap: **Things I intend to use in the future**
+
+[:top:](#top)
+
+---
+
+## :point_right: <a name="js-oop">Object oriented JS</a>
+
+---
+
+### Summary :smile_cat:
+
+:zap: **Things that were new to me**
+
+:zap: **Things that surprised me**
+
+:zap: **Things I intend to use in the future**
+
+[:top:](#top)
+
+---
+
+## :point_right: <a name="js-post-oop">OOP exercise</a>
+
+---
+
+### Summary :smile_cat:
+
+:zap: **Things that were new to me**
+
+:zap: **Things that surprised me**
+
+:zap: **Things I intend to use in the future**
+
+[:top:](#top)
+
+---
+
+## :point_right: <a name="app-design-offline">Offline Web Applications</a>
+
+---
+
+### Summary :smile_cat:
+
+:zap: **Things that were new to me**
+
+:zap: **Things that surprised me**
+
+:zap: **Things I intend to use in the future**
+
+[:top:](#top)
+
+---
+
+## :point_right: <a name="memory-pair-game">Memory pair game</a>
+
+---
+
+### Summary :smile_cat:
+
+:zap: **Things that were new to me**
+
+:zap: **Things that surprised me**
+
+:zap: **Things I intend to use in the future**
+
+[:top:](#top)
+
+---
+
+## :point_right: <a name="app-design-performance">Website Performance Optimization</a>
+
+---
+
+### Summary :smile_cat:
+
+:zap: **Things that were new to me**
+
+:zap: **Things that surprised me**
+
+:zap: **Things I intend to use in the future**
+
+[:top:](#top)
+
+## :point_right: <a name="friends-app">Friends App</a>
 
 ---
 
