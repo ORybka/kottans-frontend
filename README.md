@@ -21,7 +21,7 @@
 - [x] [Intro to HTML & CSS](#html-css-intro)
 - [x] [Responsive Web Design](#html-css-responsive)
 - [x] [HTML & CSS Practice](#html-css-popup)
-- [ ] [JavaScript Basics](#js-basics)
+- [x] [JavaScript Basics](#js-basics)
 - [ ] [Document Object Model](#js-dom)
 
 #### Advanced Topics
@@ -401,6 +401,20 @@ Also it was nice to refresh the basics.
 
 3. Functions with limited side effects - any changes, or mutations, to the state of the program outside the function are carefully controlled
 
+A _parameter_ is always going to be a variable name and appears in the function declaration. An _argument_ is always going to be a value which appears in the code when the function is called or invoked.
+
+**null** - "value of nothing vs **undefined** - "absence of value"
+
+_Falsy values_ - false, null, 0, "", undefined, NaN. !!! `[]` and `{}` are _truthy_!!!
+
+**Scope** is the part of the program where the particular identifier(e.g. variable of function) is visible and accessible. Global scope, function scope and block scope.
+
+**Hoisting**. Before any code is executed, all func declarations are _hoisted_ to the top of their current scope (as well as variables declared inside them (only their declaration not its assignment)).
+
+**Function Expression**: When a function is assigned to a variable. The function can be _named_, or _anonymous_.
+
+A function that is passed into another function is called a **callback**.
+
 :zap: **Things that surprised me**
 
 I was surprised how difficult it was to solve algorithms tasks. I will have to come back to them in the nearest future.
@@ -410,11 +424,17 @@ I was surprised how difficult it was to solve algorithms tasks. I will have to c
 I want to use more often all the main array methods, such as:
 
 `array.sort` - sorts the elements of an array according to the callback function. _mutats the original array!_
+
 `array.map` - iterates over each item in an array and returns a new array containing the results of calling the callback function on each element. _without mutating the original array_
+
 `array.filter` - filters the array, based on the function passed to it. Like map, it does this without needing to modify the original array. _without mutating the original array_
+
 `array.slice([start[, end]])` - returns a copy of certain elements of an array. The first argument gives the index of where to begin the slice, the second is the index for where to end the slice (and it's non-inclusive). _without mutating the original array_
+
 `array.splice` - takes arguments for the index of where to start removing items, then the number of items to remove. If the second argument is not provided, the default is to remove items through the end. _mutats the original array!_
+
 `array1.concat(array2)` - the method is called on one, then another array is provided as the argument to concat, which is added to the end of the first array. _without mutating the original array_
+
 `array.reduce` - terates over each item in an array and returns a single value (i.e. string, number, object, array). This is achieved via a callback function that is called on each iteration.
 
 [:top:](#top)
