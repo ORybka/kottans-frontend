@@ -445,11 +445,105 @@ I want to use more often all the main array methods, such as:
 
 ---
 
+### Udacity course. JavaScript and the DOM :heavy_check_mark:
+
+![udacity-dom](/completed-tasks/task_js_dom/udacity-dom.jpg)
+
+### Algorithm Scripting Challenges at [FreeCodeCamp](https://www.freecodecamp.org/learn/) :heavy_check_mark:
+
+![freecodecamp](/completed-tasks/task_js_dom/freecodecamp.jpg)
+
 ### Summary :smile_cat:
 
 :zap: **Things that were new to me**
 
+The **DOM** stands for "Document Object Model" and is a tree-like structure that is a representation of the HTML document, the relationship between elements, and contains the content and properties of the elements.
+
+The DOM is:
+
+- constructed from the browser
+- is globally accessible by JavaScript code using the `document` object (just like a JavaScript object)
+
+**Methods**:
+
+- `.getElementById()` returns a single item;
+- `.getElementsByClassName()`
+- `.getElementsByTagName()`
+- `.querySelector()` **returns a single element!**
+- `.querySelectorAll()`
+
+- `.createElement()`
+- `.appendChild()`
+- `.insertAdjacentHTML()` insert the new HTML in one of four different locations:
+
+  - `beforebegin` – inserts the HTML text as a previous sibling
+  - `afterbegin` – inserts the HTML text as the first child
+  - `beforeend` – inserts the HTML text as the last child
+  - `afterend` – inserts the HTML text as a following sibling
+
+- `.removeChild()`
+- `.remove()` - method removes the object from the tree it belongs to.
+
+- `.setAttribute()` is not just for styling page elements. You can use this method to set any attribute for an element
+
+- `.addEventListener()`
+- `.removeEventListener()` => requires you to pass the **same exact** listener function to it as the one you passed to `.addEventListener()`!!
+- `.preventDefault()`
+- `.createDocumentFragment()`. Changes made to a DocumentFragment happen off-screen; there's no reflow and repaint cost while you build this
+
+**Properties**:
+
+- `.innerHTML` represents the markup of the element's content and returns a `DOMString` + updates an element, including its HTML
+- `.textContent` sets or returns the text content of an element and all its descendants (completely ignores any CSS styling)
+- `.innerText` gets the _visible_ text of the element
+- `.firstElementChild`
+- `.firstChild` - might return whitespace (if there is any) to preserve the formatting of the underlying HTML source code. Better use `.firstElementChild`
+- `.parentElement` - example.`mainHeading.parentElement.removeChild(mainHeading)`
+- `.style.cssText` to set multiple CSS styles at once
+- `.className` returns a space-separated string of the classes.
+- `.classList` returns an _DOMTokenList_ of the classes. The DOMTokenList itself is read-only, although you can modify it using the `add()`, `remove()`, `.toggle()` and `.contains()` methods.
+- `.target`
+- `.nodeName` => will return a capital string
+
+`DOMContentLoaded` event => if you do have JavaScript code that needs to run as soon as possible, then you could put that code in the `<head>` and wrap it in a DOMContentLoaded event listener. This way it will run as early as possible, but not too early that the DOM isn't ready for it.
+
 :zap: **Things that surprised me**
+
+Main things I was surprised to know are:
+
+- A **node** is the generic name for any type of object in the DOM hierarchy. An **element** is one specific type of node as there are many other types of nodes (text nodes, comment nodes, document nodes, etc...) (an `ELEMENT_NODE` is one particular type of node where the nodeType property has a value of `1`). An element is a specific type of node, one that can be directly specified in the HTML with an HTML tag and can have properties like an id or a class. can have children, etc...
+
+- HTML5 defines an `HTMLCollection` which is a list of HTML Elements (not any node, only Elements). A number of properties or methods in HTML5 now return an `HTMLCollection`. While it is very similar in interface to a `nodeList`, a distinction is now made in that it only contains Elements, not any type of node.
+
+- **_The EventTarget_** is an interface implemented by objects that can receive events and may have listeners for them.
+
+- The _Chrome browser_ has a special `monitorEvents()` function that will let us see different events as they are occurring.
+
+- Two functions can look the same, but live in two different places in memory. Looks can be deceiving!
+
+- There are three different phases during the lifecycle of an event. They are:
+
+  - the capturing phase
+  - the at target phase
+  - and the bubbling phase (from child up to parent)
+
+- `performance.now()`
+
+- **Reflow** is the process of the browser laying out the page. It happens when you first display the DOM (generally after the DOM and CSS have been loaded), and happens again every time something could change the layout. This is a fairly expensive (slow) process.
+
+- **Repaint** happens after reflow as the browser draws the new layout to the screen. This is fairly quick, but you still want to limit how often it happens.
+
+- JavaScript is **single-threaded** => the processing of one command at a time
+
+- Both `.addEventListener()` and `.setTimeout()` are **Web APIs**.
+
+- There are three parts you have to think about around the JavaScript **Event Loop**:
+
+  - the Call Stack
+  - Web APIs/the browser
+  - an Event Queue
+
+- We can use the `setTimeout()` method to help us write code that allows the browser to handle user interactions.
 
 :zap: **Things I intend to use in the future**
 
