@@ -22,7 +22,7 @@
 - [x] [Responsive Web Design](#html-css-responsive)
 - [x] [HTML & CSS Practice](#html-css-popup)
 - [x] [JavaScript Basics](#js-basics)
-- [ ] [Document Object Model](#js-dom)
+- [x] [Document Object Model](#js-dom)
 
 #### Advanced Topics
 
@@ -453,6 +453,12 @@ I want to use more often all the main array methods, such as:
 
 ![freecodecamp](/completed-tasks/task_js_dom/freecodecamp.jpg)
 
+### Practical task :heavy_check_mark:
+
+![dom-screenshot](/completed-tasks/task_js_dom/dom.jpg)
+
+#### [Demo website](https://orybka.github.io/game-of-thrones/)
+
 ### Summary :smile_cat:
 
 :zap: **Things that were new to me**
@@ -546,6 +552,10 @@ Main things I was surprised to know are:
 - We can use the `setTimeout()` method to help us write code that allows the browser to handle user interactions.
 
 :zap: **Things I intend to use in the future**
+
+For sure I will use all the DOM methods and properties to manipulate the page.
+They are very clear and easy to use.
+They allow you to do great things with your HTML and CSS.
 
 [:top:](#top)
 
