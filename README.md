@@ -26,7 +26,7 @@
 
 #### Advanced Topics
 
-- [ ] [Building a Tiny JS World (pre-OOP)](#js-pre-oop)
+- [x] [Building a Tiny JS World (pre-OOP)](#js-pre-oop)
 - [ ] [Object oriented JS](#js-oop)
 - [ ] [OOP exercise](#js-post-oop)
 - [ ] [Offline Web Applications](#app-design-offline)
@@ -567,11 +567,11 @@ They allow you to do great things with your HTML and CSS.
 
 ### Summary :smile_cat:
 
-:zap: **Things that were new to me**
+The whole task was a pleasure. It's a nice way to start learning OOP in Javascript.
+I am looking forward to come back to it to rewrite the code using classes to see how it will be shorter and more clear, without hardcoding objects.
 
-:zap: **Things that surprised me**
-
-:zap: **Things I intend to use in the future**
+Moreover, I did like additional articles such as [How to explain object-oriented programming concepts to a 6-year-old](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/) and [A guide to prototype-based class inheritance in JavaScript](https://levelup.gitconnected.com/a-guide-to-prototype-based-class-inheritance-in-javascript-e2e30c2c92b4). As I'm already familiar with OOP in JS a little bit but it's more like a mess in the head, these articles gave some important simple concepts about it. 
+Now I am ready to start new task :smile_cat:
 
 [:top:](#top)
 
