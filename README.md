@@ -27,11 +27,11 @@
 #### Advanced Topics
 
 - [x] [Building a Tiny JS World (pre-OOP)](#js-pre-oop)
-- [ ] [Object oriented JS](#js-oop)
+- [x] [Object oriented JS](#js-oop)
 - [ ] [OOP exercise](#js-post-oop)
-- [ ] [Offline Web Applications](#app-design-offline)
+<!-- - [ ] [Offline Web Applications](#app-design-offline) -->
 - [ ] [Memory pair game](#memory-pair-game)
-- [ ] [Website Performance Optimization](#app-design-performance)
+<!-- - [ ] [Website Performance Optimization](#app-design-performance) -->
 - [ ] [Friends App](#friends-app)
 
 ![cat](/img/cat.jpg)
@@ -565,13 +565,19 @@ They allow you to do great things with your HTML and CSS.
 
 ---
 
+### Practical task :heavy_check_mark:
+
+#### [Demo website](https://orybka.github.io/a-tiny-JS-world/)
+
 ### Summary :smile_cat:
 
 The whole task was a pleasure. It's a nice way to start learning OOP in Javascript.
 I am looking forward to come back to it to rewrite the code using classes to see how it will be shorter and more clear, without hardcoding objects.
+Unfortunately, still I have problem with naming my functions, variables etc.
 
-Moreover, I did like additional articles such as [How to explain object-oriented programming concepts to a 6-year-old](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/) and [A guide to prototype-based class inheritance in JavaScript](https://levelup.gitconnected.com/a-guide-to-prototype-based-class-inheritance-in-javascript-e2e30c2c92b4). As I'm already familiar with OOP in JS a little bit but it's more like a mess in the head, these articles gave some important simple concepts about it. 
-Now I am ready to start new task :smile_cat:
+Moreover, I did like additional articles such as [How to explain object-oriented programming concepts to a 6-year-old](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/) and [A guide to prototype-based class inheritance in JavaScript](https://levelup.gitconnected.com/a-guide-to-prototype-based-class-inheritance-in-javascript-e2e30c2c92b4). As I'm already familiar with OOP in JS a little bit but it's more like a mess in the head, these articles gave some important simple concepts about it.
+
+Now I am ready to start a new task :smile_cat:
 
 [:top:](#top)
 
@@ -581,13 +587,46 @@ Now I am ready to start new task :smile_cat:
 
 ---
 
+### Udacity course. Object-Oriented JavaScript :heavy_check_mark:
+
+![udacity-oop](/completed-tasks/task_js_oop/udacity-oop.jpg)
+
+### My progress at [Codewars](https://www.codewars.com/) :heavy_check_mark:
+
+![codewars](/completed-tasks/task_js_oop/codewars.jpg)
+
+#### [Link to my codewars profile](https://www.codewars.com/users/ORybka)
+
+### Practical task :heavy_check_mark:
+
+#### [Demo website](https://orybka.github.io/frogger-game/)
+
 ### Summary :smile_cat:
 
 :zap: **Things that were new to me**
+It was nice to go through all details about object design patterns in js.
+Yet the udacity course was quite difficult to follow and to understand. After I finished it, I had to get more information from othersources.
+
+The main object **design patterns** are:
+
+- **Factory Object Creation Pattern**. Each object created by a function has the same properties, to include both state and behavior. But there is no way to check whether a given object was created by a certain factory and the factory pattern does not share behaviors, rather, it simply creates new versions of a behavior every time it is called and adds them to the object being created.
+- **Constructor Pattern**. We use a _“constructor function,”_ which is really just a regular function that is called using the `new` keyword.
+- **Pseudo-classical Pattern**. The prototype chain allows delegation of behavior, wherein we don’t have to define some shared method on lower-level objects of the same type. Instead, we can define the behavior on whichever prototype they all share and thus eliminate redundancy by only defining the code once.
+
+**S.O.L.I.D. principles** (from the [article](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)):
+
+- **S** — Single Responsibility - A class should have a single responsibility
+- **O** — Open-Closed - Classes should be open for extension, but closed for modification
+- **L** — Liskov Substitution - If S is a subtype of T, then objects of type T in a program may be replaced with objects of type S without altering any of the desirable properties of that program.
+- **I** — Interface Segregation - When a Class is required to perform actions that are not useful, it is wasteful and may produce unexpected bugs if the Class does not have the ability to perform those actions
+- **D** — Dependency Inversion - Abstractions should not depend on details. Details should depend on abstractions
 
 :zap: **Things that surprised me**
+That was my first time when I had to complete someone's code. It was difficult to start and it took quite a lot of time to read and understand it. But in the end it was great to make the comlete project.
 
 :zap: **Things I intend to use in the future**
+First I wrote ES+ classes and then had to rewrite them into prototypes.
+I like the way this technology work and for sure I will use classes in the future.
 
 [:top:](#top)
 
@@ -609,39 +648,7 @@ Now I am ready to start new task :smile_cat:
 
 ---
 
-## :point_right: <a name="app-design-offline">Offline Web Applications</a>
-
----
-
-### Summary :smile_cat:
-
-:zap: **Things that were new to me**
-
-:zap: **Things that surprised me**
-
-:zap: **Things I intend to use in the future**
-
-[:top:](#top)
-
----
-
 ## :point_right: <a name="memory-pair-game">Memory pair game</a>
-
----
-
-### Summary :smile_cat:
-
-:zap: **Things that were new to me**
-
-:zap: **Things that surprised me**
-
-:zap: **Things I intend to use in the future**
-
-[:top:](#top)
-
----
-
-## :point_right: <a name="app-design-performance">Website Performance Optimization</a>
 
 ---
 
