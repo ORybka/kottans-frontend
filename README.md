@@ -29,9 +29,9 @@
 - [x] [Building a Tiny JS World (pre-OOP)](#js-pre-oop)
 - [x] [Object oriented JS](#js-oop)
 - [ ] [OOP exercise](#js-post-oop)
-<!-- - [ ] [Offline Web Applications](#app-design-offline) -->
+- [ ] [Offline Web Applications](#app-design-offline)
 - [ ] [Memory pair game](#memory-pair-game)
-<!-- - [ ] [Website Performance Optimization](#app-design-performance) -->
+- [ ] [Website Performance Optimization](#app-design-performance)
 - [ ] [Friends App](#friends-app)
 
 ![cat](/img/cat.jpg)
