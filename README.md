@@ -28,7 +28,7 @@
 
 - [x] [Building a Tiny JS World (pre-OOP)](#js-pre-oop)
 - [x] [Object oriented JS](#js-oop)
-- [ ] [OOP exercise](#js-post-oop)
+- [x] [OOP exercise](#js-post-oop)
 - [ ] [Offline Web Applications](#app-design-offline)
 - [ ] [Memory pair game](#memory-pair-game)
 - [ ] [Website Performance Optimization](#app-design-performance)
@@ -622,9 +622,11 @@ The main object **design patterns** are:
 - **D** — Dependency Inversion - Abstractions should not depend on details. Details should depend on abstractions
 
 :zap: **Things that surprised me**
+
 That was my first time when I had to complete someone's code. It was difficult to start and it took quite a lot of time to read and understand it. But in the end it was great to make the comlete project.
 
 :zap: **Things I intend to use in the future**
+
 First I wrote ES+ classes and then had to rewrite them into prototypes.
 I like the way this technology work and for sure I will use classes in the future.
 
@@ -636,13 +638,21 @@ I like the way this technology work and for sure I will use classes in the futur
 
 ---
 
+### Practical task :heavy_check_mark:
+
+#### [Demo website](https://orybka.github.io/a-tiny-JS-world/)
+
 ### Summary :smile_cat:
 
-:zap: **Things that were new to me**
+This time it was more difficult to solve the task.
+Class implementation makes your class more scalable but you have to be very careful while thinking over and writing the classes.
 
-:zap: **Things that surprised me**
+The **new thing** I learnt was `extends` keyword.
+It is used to create a child class of another class (parent).
+The child class inherits all the methods from another class.
+The `super()` method refers to the parent class. By calling the `super()` method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
 
-:zap: **Things I intend to use in the future**
+So, by using `extends` keyword I managed to make a child class (e. g. `class Human`) that inherits all the parent (`class Inhabitant`) methods as well as has it's own unique properties and methods.
 
 [:top:](#top)
 
