@@ -29,10 +29,10 @@
 - [x] [Building a Tiny JS World (pre-OOP)](#js-pre-oop)
 - [x] [Object oriented JS](#js-oop)
 - [x] [OOP exercise](#js-post-oop)
-- [ ] [Offline Web Applications](#app-design-offline)
 - [ ] [Memory pair game](#memory-pair-game)
-- [ ] [Website Performance Optimization](#app-design-performance)
 - [ ] [Friends App](#friends-app)
+- [ ] [Offline Web Applications](#app-design-offline)
+- [ ] [Website Performance Optimization](#app-design-performance)
 
 ![cat](/img/cat.jpg)
 
@@ -653,6 +653,34 @@ The child class inherits all the methods from another class.
 The `super()` method refers to the parent class. By calling the `super()` method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
 
 So, by using `extends` keyword I managed to make a child class (e. g. `class Human`) that inherits all the parent (`class Inhabitant`) methods as well as has it's own unique properties and methods.
+
+In addition, I learnt a very great solution how to supplement parent's method (e.g. `super.methodName()`) with some data from unique properties child class owns directly.
+
+```
+class A {
+  constructor() {
+  }
+  method() {
+    return 'a'; // "a"
+  }
+}
+
+class B extends A {
+  constructor() {
+    super();
+  }
+}
+
+
+class C extends B {
+  constructor() {
+    super();
+  }
+  method() {
+    return super.method() + 'c'; // "ac"
+  }
+}
+```
 
 [:top:](#top)
 
